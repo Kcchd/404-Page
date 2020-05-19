@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'RubikMonoOne-Regular';
+    src: url(font/RubikMonoOne-Regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tauri-Regular';
+    src: url(font/Tauri-Regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+.container {
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-color: white;
+
+}
+.container img {
+    max-width: 400px;
+}
+
+body {
+    background-color:#3f3574;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container2 {
+    margin: auto;
+    text-align: center;
+}
+.info1{
+    padding-top: 50px;
+}
+.oops {
+    font-family: 'RubikMonoOne-Regular';
+    font-size: 140px;
+    color: white;
+    display: inline;
+}
+.wrong {
+    font-family: 'Tauri-Regular';
+    color: white;
+    font-size: 41px;
+    display: inline;
+}
+.info2 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.ex {
+    font-family: 'RubikMonoOne-Regular';
+    color: white;
+    font-size: 33px;
+    display: inline;
+}
+.page {
+    font-family: 'Tauri-Regular';
+    color: white;
+    display: inline;
+    font-size: 20px;
+}
+
+.box {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+.btn {
+    border: 1px solid white;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Tauri-Regular';
+    cursor: pointer;
+    transition: 0.7s;
+    color:white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: #3f3574;
+}
