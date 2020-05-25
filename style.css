@@ -1,12 +1,13 @@
+
 @font-face {
     font-family: 'RubikMonoOne-Regular';
-    src: url(font/RubikMonoOne-Regular.woff) format("woff");
+    src: url(assets/font/RubikMonoOne-Regular.woff) format("woff");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Tauri-Regular';
-    src: url(font/Tauri-Regular.woff) format("woff");
+    src: url(assets/font/Tauri-Regular.woff) format("woff");
     font-weight: normal;
     font-style: normal;
 }

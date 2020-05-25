@@ -1,0 +1,99 @@
+$container-align: center; 
+$container-margin: auto;
+$base: white;
+$second: #3f3574;
+$font1 : 'RubikMonoOne-Regular';
+$font2 : 'Tauri-Regular';
+@font-face {
+    font: {
+        family: 'RubikMonoOne-Regular';
+        weight: normal;
+        style: normal;
+    }
+    src: url(assets/font/RubikMonoOne-Regular.woff) format("woff");
+}
+@font-face {
+    font: {
+        family: 'Tauri-Regular';
+        weight: normal;
+        style: normal;
+    }
+    src: url(assets/font/Tauri-Regular.woff) format("woff");
+}
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+body {
+    background-color: $second;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    text-align: $container-align;
+    margin: $container-margin;
+    display: block;
+    background-color: white;
+    img {
+        max-width: 400px;}
+    }
+.container2 {
+    margin: $container-margin;
+    text-align: $container-align;}
+.info1 {
+        padding-top: 50px;
+    }
+.oops {
+        font: {
+            family: $font1;
+            size: 140px; }
+        color: $base;
+        display: inline;
+    }
+.wrong {
+    font-family: $font2;
+    color: $base;
+    font-size: 41px;
+    display: inline;
+    }
+.info2 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.ex {
+    font-family: $font2;
+    color: $base;
+    font-size: 33px;
+    display: inline;
+}
+.page {
+    font: {
+        family: $font2;
+        size: 20px;}
+    color: $base;
+    display: inline;
+}
+.box {
+    margin: $container-margin;
+    text-align: $container-align;
+    display: block;
+}
+.btn {
+    font: {
+        family: $font2;
+        size: 20px;}
+    border: 1px solid $base;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.7s;
+    color:$base;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    &:hover {
+    background-color: $base;
+    color: $second;
+    }
+}
